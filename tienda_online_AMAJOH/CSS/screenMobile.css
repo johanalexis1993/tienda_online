@@ -1,0 +1,41 @@
+@media (max-width: 23.5rem) and (max-width: 35rem) {
+  html {
+    font-size: 10px;
+  }
+  header li > a {
+    color: var(--color-4);
+    font-weight: 900;
+  }
+  header li:nth-child(1) {
+    display: block;
+    font-size: 2rem;
+    color: var(--color-4);
+  }
+  #searchInput {
+    width: 5rem;
+  }
+  nav li > a > img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  aside,
+  #menu-toggle {
+    display: none;
+  }
+  section h2 {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  p {
+    font-weight: 900;
+  }
+  footer {
+    font-weight: 900;
+  }
+}
